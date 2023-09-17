@@ -1,0 +1,308 @@
+ <!-- Deklarasi tipe dokumen HTML -->
+<!DOCTYPE html>
+<!-- Tag pembuka dokumen HTML dengan atribut bahasa -->
+<html lang="en">
+<head>
+     <!-- Pengaturan karakter set dokumen -->
+    <meta charset="UTF-8">
+    <!-- Pengaturan kompatibilitas dengan Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Konfigurasi tampilan responsif -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman -->
+    <title>Portofolio Rayhan Ahza Widyamukti</title>
+
+     <!-- Menghubungkan file eksternal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Menghubungkan ikon situs -->
+    <link rel="shortcut icon" href="/images/ehan.jpg" type="image/x-icon" />
+     <!-- Menghubungkan file CSS eksternal (boxicons) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Bagian header -->
+    <header class="header">
+        <!-- Judul atau logo situs -->
+        <a href="#" class="logo">Rayhan Ahza</a>
+        <!-- Ikon menu -->
+        <div class="bx bx-menu" id="menu-icon"></div>  
+
+        <!-- Navigasi situs -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#education">Riwayat</a>
+            <a href="#skills">Skill</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Bagian beranda -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <!-- Judul Home -->
+            <h1>Hai, Aku <span> Ehan</span></h1>
+        <div class="text-animate">
+            <!-- Subjudul Home -->
+            <h3>Fullstack Developer</h3>
+        </div>
+        <!-- Teks selamat datang -->
+        <p>Selamat datanggg, ini adalah potofolio ku</p>
+
+        <div class="btn-box">
+            <!-- Tombol "Tentang Saya" -->
+            <a href="#about" class="btn">Tentang Saya</a>
+            <!-- Tombol "Hubungi Saya" -->
+            <a href="https://wa.me/6285228438178" class="btn">Hubungi Saya</a>
+        </div>
+        </div>
+
+        <div class="home-sci">
+            <!-- Ikon Instagram dengan link menuju akun instagram milik saya -->
+            <a href="https://instagram.com/byteehan?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+            <!-- Ikon Tiktok dengan link menuju akun tiktok milik saya -->
+            <a href="https://www.tiktok.com/@texbury?_t=8fNhTC3Pphq&_r=1"><i class='bx bxl-tiktok'></i></a>
+            <!-- Ikon Github dengan link menuju akun github milik saya-->
+            <a href="https://github.com/Ahzaaa16"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <!-- Gambar latar belakang beranda -->
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!-- Bagian "Tentang Saya" -->
+    <section class="about" id="about">
+        <!-- Judul "Tentang Saya" -->
+        <h2 class="heading">Tentang <span>Saya</span></h2>
+
+        <!-- Gambar profil -->
+        <div class="about-img">
+            <img src="images/about.jpg" alt="">
+            <!-- Efek animasi -->
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <!--Pekerjaan -->
+            <h3>Fullstack Developer</h3>
+            <!-- Deskripsi singkat tentang diri -->
+            <p>Nama lengkap ku Rayhan Ahza Widyamukti, Aku lahir di Makassar pada tanggal 16 November 2007, Aku seorang siswa di jurusan Pengembangan Perangkat Lunak dan Gim(PPLG) di SMK Telkom Sandhy Putra Purwokerto, dengan minat kuat untuk menjadi
+             Fullstack Developer. Di luar belajar, Aku menikmati bermain game, membaca buku, Dengan semangat belajar yang tinggi diharapkan semoga aku mencapai kesuksesan dalam dunia pengembangan perangkat lunak.
+            </p>
+
+            <!-- Tombol "Lebih Lanjut" -->
+            <div class="btn-box btns">
+                <a href="#education" class="btn">Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Bagian "Riwayat" -->
+    <section class="education" id="education">
+        <!-- Judul "Riwayat" -->
+        <h2 class="heading"><span>Riwayat</span></h2>
+
+        <div class="education-row">
+            <!-- Kolom pertama berisi riwayat pendidikan -->
+            <div class="education-column">
+                <!-- Judul kolom "Riwayat Pendidikan" -->
+                <h3 class="title">Riwayat Pendidikan</h3>
+
+                <div class="education-box">
+                    <!-- Kotak untuk setiap entri riwayat pendidikan -->
+                    <div class="education-content">
+                        <div class="content">
+                             <!-- Tahun -->
+                            <div class="year"><i class='bx bxs-calendar'></i> 2012-2019</div>
+                            <!-- Nama sekolah -->
+                            <h3> SD AL Irsyad Al Islamiyah Purwokerto 01 </h3> 
+                            <!-- Deskripsi -->
+                            <p> Saya pernah bersekolah(sudah lulus) di SD AL Irsyad Al Islamiyah Purwokerto 01</p>
+                        </div>
+                    </div>
+                    <!-- Bagian pendidikan lainnya memiliki format yang serupa -->
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019-2022</div>
+                            <h3> SMP Negeri 2 Karanglewas </h3>
+                            <p> Saya pernah bersekolah(sudah lulus) di SMP Negeri 2 Karanglewas </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022-2025</div>
+                            <h3> SMK Telkom Sandhy Purwokerto </h3>
+                            <p> Saat ini saya masih bersekolah di SMK Telkom Sandhy Purwokerto, dan menempati bangku kelas 11  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <!-- Kolom kedua berisi pengalaman -->
+            <div class="education-column">
+                <!-- Judul kolom "Pengalaman" -->
+                <h3 class="title">Pengalaman</h3>
+
+                <div class="education-box">
+                     <!-- Kotak untuk setiap entri pengalaman -->
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- Tahun -->
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                             <!-- Judul pengalaman -->
+                            <h3> Pengembangan Web</h3> 
+                            <!-- Deskripsi -->
+                            <p> Saya pertama kali mengembangkan sebuah website pada tahun kemarin</p>
+                        </div>
+                    </div>
+
+                    <!-- Entri pengalaman lainnya memiliki format yang serupa -->
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                            <h3> Web/App Desain </h3>
+                            <p> Saya pernah membuat web dan desain aplikasi dengan menggunakan aplikasi Figma</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022-2025</div>
+                            <h3> Desain Grafis </h3>
+                            <p> Saya sudah cukup berpengalaman dalam membuat sebuah desain grafis menggunakan berbagai macam aplikasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian "Skills" -->
+    <section class="skills" id="skills">
+        <!-- Judul "Skills" -->
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-row">
+            <!-- Kolom pertama berisi keterampilan pemrograman -->
+            <div class="skills-column">
+                <!-- Judul kolom "Coding Skills" -->
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <!-- Kotak untuk setiap keterampilan pemrograman -->
+                    <div class="skills-content">
+                        <div class="progress">
+                            <!-- Keterampilan HTML -->
+                            <h3>HTML <span>90%</span></h3>
+                             <!-- Progress bar -->
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <!-- Keterampilan pemrograman lainnya memiliki format yang serupa -->
+                        <div class="progress">
+                            <h3>CSS <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Phyton <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kolom kedua berisi keterampilan lainnya -->
+            <div class="skills-column">
+                <!-- Judul kolom "Other Skills" -->
+                <h3 class="title">Other Skills</h3>
+                <div class="skills-box">
+                     <!-- Kotak untuk setiap keterampilan lainnya -->
+                    <div class="skills-content">
+                        <div class="progress">
+                             <!-- Keterampilan desain web -->
+                            <h3>Web Desain<span>90%</span></h3>
+                            <!-- Progress bar -->
+                            <div class="bar"><span></span></div>
+                        </div>
+            <!-- Keterampilan lainnya memiliki format yang serupa -->
+
+                        <div class="progress">
+                            <h3>Pengembangan Web <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Desain Grafis <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Marketing <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Bagian "Hubungi Saya" -->
+    <section class="contact" id="contact">
+        <!-- Judul "Hubungi Saya" -->
+        <h2 class="heading">Hubungi <span>Saya!</span></h2>
+
+         <!-- Formulir kontak -->
+        <form action="#">
+            <!-- Kotak input untuk nama, email, nomor handphone, subjek, dan pesan -->
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <span class="focus"></span>
+                </div>
+                 <!-- Input lainnya memiliki format yang serupa -->
+                <div class="input-field">
+                    <input type="text" placeholder="Alamat Email" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="No Handphone" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Subjek Email" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+             <!-- Kotak untuk pesan -->
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Isi Pesan" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <!-- Tombol "Submit" -->
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Bagian footer -->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <!-- Tombol "Kembali ke Atas" -->
+            <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+</body>
+</html>
